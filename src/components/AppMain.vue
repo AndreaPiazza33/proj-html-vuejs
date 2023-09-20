@@ -1,10 +1,14 @@
 <script>
+/*import option*/
+import AppOptions from "./AppOptions.vue";
+
 export default {
   data() {
     return {
       title: "",
     };
   },
+  components: { AppOptions },
 };
 </script>
 
@@ -30,20 +34,21 @@ export default {
           <img src="img/first-section-image.png" alt="" />
         </div>
       </div>
-
-      <!--SECONDA SEZIONE-->
-      <div class="flex-horizontal">
-        <!--titolo sezione-->
-        <div class="section-title-center">
-          <span>START LEARNING CODING LANGUAGE</span>
-          <h2>Build Your Dream Today</h2>
-        </div>
-        <!--cards corsi-->
-        <div>ciao</div>
-        <!--img + cards orizzontali-->
-        <div>ciao</div>
-      </div>
     </div>
+  </div>
+  <!--SECONDA SEZIONE-->
+  <div class="container flex-horizontal flex-wrap justify-content-center">
+    <!--titolo sezione-->
+    <div class="section-title-center my-5">
+      <span>START LEARNING CODING LANGUAGE</span>
+      <h2>Build Your Dream Today</h2>
+    </div>
+    <!--cards option corsi-->
+    <div class="flex-horizontal">
+      <AppOptions></AppOptions>
+    </div>
+    <!--img + cards orizzontali-->
+    <div>ciao</div>
   </div>
 </template>
 
