@@ -1,0 +1,13 @@
+/*button verde*/
+@mixin my-button {
+  color: white;
+  border: 1px solid hsl(170.21deg 68.78% 40.2%);
+  border-radius: 5px;
+  background-color: hsl(170.21deg 68.78% 40.2%);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  width: 60%;
+}
+.my-button {
+  @include my-button;
+}

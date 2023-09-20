@@ -12,7 +12,7 @@ export default {
   <div class="bg-header">
     <!--contenitore header-->
     <div class="container">
-      <div class="d-flex flex-row justify-content-between">
+      <div class="d-flex flex-row justify-content-between py-3">
         <!--logo-->
         <div>
           <img src="img/dark-logo.png" alt="" />
@@ -50,6 +50,7 @@ export default {
 .bg-header {
   background-color: rgb(233 230 227);
   width: 100%;
+
   ul {
     gap: 1rem;
     list-style-type: none;
