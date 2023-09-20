@@ -15,15 +15,22 @@
 }
 
 /*Background*/
-@mixin my-colored-background {
+@mixin my-colored-bg-hazelnut {
   background-color: rgb(233 230 227);
   width: 100%;
 }
 .bg-hazelnut {
-  @include my-colored-background;
+  @include my-colored-bg-hazelnut;
+}
+@mixin my-colored-bg-vanilla {
+  background-color: hsl(0, 0%, 94%);
+  width: 100%;
+}
+.bg-vanilla {
+  @include my-colored-bg-vanilla;
 }
 
-/*Button verde*/
+/*Button*/
 @mixin my-button {
   color: white;
   border: 1px solid hsl(170.21deg 68.78% 40.2%);
@@ -37,16 +44,28 @@
   @include my-button;
 }
 
+/*label*/
+@mixin my-label {
+  color: white;
+  border: 1px solid hsl(170.21deg 68.78% 40.2%);
+  border-radius: 5px;
+  background-color: hsl(170.21deg 68.78% 40.2%);
+  padding: 0.5rem 0.5rem;
+}
+.label {
+  @include my-label;
+}
+
 /*Title sezioni*/
 @mixin my-section-title($type) {
-  h2 {
+  > h2 {
     color: hsl(247.14deg 26.58% 30.98%);
     font-weight: bolder;
   }
-  span {
+  > span {
     color: hsl(0deg 0% 41.18%);
   }
-  p {
+  > p {
     color: hsl(250.59deg 10.43% 68.04%);
   }
   @if ($type == "center") {
