@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-header">
+  <div class="bg-hazelnut">
     <!--contenitore header-->
     <div class="container">
       <div class="d-flex flex-row justify-content-between py-3">
@@ -31,7 +31,7 @@ export default {
             </ul>
           </div>
           <!--icone-->
-          <div class="d-flex flex-row align-items-center mx-2">
+          <div class="d-flex flex-row mx-2">
             <p>icon</p>
             <p>icon</p>
           </div>
@@ -47,16 +47,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.bg-header {
-  background-color: rgb(233 230 227);
-  width: 100%;
-
-  ul {
-    gap: 1rem;
-    list-style-type: none;
-  }
-  img {
-    max-width: 100%;
-  }
+ul {
+  gap: 1rem;
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
 }
 </style>

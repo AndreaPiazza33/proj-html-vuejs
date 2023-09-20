@@ -1,4 +1,13 @@
-/*button verde*/
+/*Background*/
+@mixin my-colored-background {
+  background-color: rgb(233 230 227);
+  width: 100%;
+}
+.bg-hazelnut {
+  @include my-colored-background;
+}
+
+/*Button verde*/
 @mixin my-button {
   color: white;
   border: 1px solid hsl(170.21deg 68.78% 40.2%);

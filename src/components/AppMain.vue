@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="bg-header">
+  <div class="bg-hazelnut">
     <!--contenitore-->
     <div class="container">
       <!--PRIMA SEZIONE-->
@@ -28,20 +28,18 @@ export default {
           <img src="img/first-section-image.png" alt="" />
         </div>
       </div>
+      <!--SECONDA SEZIONE-->
+      <div></div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.bg-header {
-  background-color: rgb(233 230 227);
-  width: 100%;
-  .wrapper {
-    overflow-y: hidden;
-    height: calc(100vh - 50px);
-  }
-  img {
-    max-width: 100%;
-  }
+.wrapper {
+  overflow-y: hidden;
+  height: calc(100vh - 50px);
+}
+img {
+  max-width: 100%;
 }
 </style>
