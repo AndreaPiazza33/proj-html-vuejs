@@ -13,10 +13,9 @@ export default {
 </script>
 
 <template>
+  <!--PRIMA SEZIONE-->
   <div class="bg-hazelnut">
-    <!--contenitore-->
     <div class="container">
-      <!--PRIMA SEZIONE-->
       <div class="flex-horizontal justify-content-between pt-3">
         <div
           class="flex-vertical col-5 justify-content-center section-title-left"
@@ -36,8 +35,9 @@ export default {
       </div>
     </div>
   </div>
+
+  <!--SECONDA SEZIONE-->
   <div class="bg-vanilla">
-    <!--SECONDA SEZIONE-->
     <div class="container">
       <div class="flex-horizontal flex-wrap justify-content-center">
         <!--titolo sezione-->
@@ -91,6 +91,30 @@ export default {
       </div>
     </div>
   </div>
+
+  <!--TERZA SEZIONE-->
+  <div class="bg-hazelnut">
+    <div class="container">
+      <div class="flex-horizontal justify-content-around py-4">
+        <div class="flex-vertical text-center">
+          <h4 class="colored-data">1.926</h4>
+          <span>FINISHED SESSIONS</span>
+        </div>
+        <div class="flex-vertical text-center">
+          <h4 class="colored-data">3.092+</h4>
+          <span>ENROLLED LEARNERS</span>
+        </div>
+        <div class="flex-vertical text-center">
+          <h4 class="colored-data">200</h4>
+          <span>ONLINE INSTRUCTORS</span>
+        </div>
+        <div class="flex-vertical text-center">
+          <h4 class="colored-data">100%</h4>
+          <span>SATISFACTION RATE</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -103,5 +127,9 @@ export default {
     margin: 1rem 0.5rem;
     color: hsl(250.59deg 10.43% 68.04%);
   }
+}
+.colored-data {
+  color: hsl(170.21deg 68.78% 40.2%);
+  font-weight: bolder;
 }
 </style>
