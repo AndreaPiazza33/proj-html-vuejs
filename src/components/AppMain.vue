@@ -13,8 +13,10 @@ export default {
     <!--contenitore-->
     <div class="container">
       <!--PRIMA SEZIONE-->
-      <div class="d-flex flex-row justify-content-between wrapper pt-3">
-        <div class="d-flex flex-column col-4 justify-content-center">
+      <div class="flex-horizontal justify-content-between wrapper pt-3">
+        <div
+          class="flex-vertical col-4 justify-content-center section-title-left"
+        >
           <h2>Complete Your Dreams in JavaS Programming</h2>
           <p>
             Learn any coding program in distance and for a reasonable fee. You
@@ -28,8 +30,19 @@ export default {
           <img src="img/first-section-image.png" alt="" />
         </div>
       </div>
+
       <!--SECONDA SEZIONE-->
-      <div></div>
+      <div class="flex-horizontal">
+        <!--titolo sezione-->
+        <div class="section-title-center">
+          <span>START LEARNING CODING LANGUAGE</span>
+          <h2>Build Your Dream Today</h2>
+        </div>
+        <!--cards corsi-->
+        <div>ciao</div>
+        <!--img + cards orizzontali-->
+        <div>ciao</div>
+      </div>
     </div>
   </div>
 </template>
@@ -38,8 +51,5 @@ export default {
 .wrapper {
   overflow-y: hidden;
   height: calc(100vh - 50px);
-}
-img {
-  max-width: 100%;
 }
 </style>

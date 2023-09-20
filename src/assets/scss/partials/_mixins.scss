@@ -1,3 +1,19 @@
+/*Disposizioni Flex*/
+@mixin my-flex-container($type) {
+  display: flex;
+  @if ($type == "horizontal") {
+    flex-direction: row;
+  } @else if ($type == "vertical") {
+    flex-direction: column;
+  }
+}
+.flex-horizontal {
+  @include my-flex-container(horizontal);
+}
+.flex-vertical {
+  @include my-flex-container(vertical);
+}
+
 /*Background*/
 @mixin my-colored-background {
   background-color: rgb(233 230 227);
@@ -19,4 +35,29 @@
 }
 .my-button {
   @include my-button;
+}
+
+/*Title sezioni*/
+@mixin my-section-title($type) {
+  h2 {
+    color: hsl(247.14deg 26.58% 30.98%);
+    font-weight: bolder;
+  }
+  span {
+    color: hsl(0deg 0% 41.18%);
+  }
+  p {
+    color: hsl(250.59deg 10.43% 68.04%);
+  }
+  @if ($type == "center") {
+    text-align: center;
+  } @else if ($type == "left") {
+    text-align: left;
+  }
+}
+.section-title-center {
+  @include my-section-title("center");
+}
+.section-title-left {
+  @include my-section-title("left");
 }
