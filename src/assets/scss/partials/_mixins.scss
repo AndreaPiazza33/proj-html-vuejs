@@ -89,6 +89,8 @@
     color: hsl(250.59deg 10.43% 68.04%);
   } @else if($type == "darkGray") {
     color: hsl(0deg 0% 41.18%);
+  } @else if($type == "blue") {
+    color: hsl(247.14deg 26.58% 30.98%);
   }
 }
 .green-data {
@@ -99,4 +101,7 @@
 }
 .dark-gray-data {
   @include my-colored-data("darkGray");
+}
+.blue-data {
+  @include my-colored-data("blue");
 }
