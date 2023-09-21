@@ -2,13 +2,16 @@
 /*import option*/
 import AppOptions from "./AppOptions.vue";
 
+/*import courses*/
+import AppCourses from "./AppCourses.vue";
+
 export default {
   data() {
     return {
       title: "",
     };
   },
-  components: { AppOptions },
+  components: { AppOptions, AppCourses },
 };
 </script>
 
@@ -26,7 +29,7 @@ export default {
             don't have to struggle alone, you've got our assistance and help.
           </p>
           <!--button verde(ripetuto)-->
-          <button class="my-button">icona+ Download free E-book</button>
+          <button class="my-button w-50">icona+ Download free E-book</button>
         </div>
         <!--box immagine-->
         <div>
@@ -111,6 +114,26 @@ export default {
         <div class="flex-vertical text-center">
           <h4 class="colored-data">100%</h4>
           <span>SATISFACTION RATE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--QUARTA SEZIONE-->
+  <div class="bg-vanilla">
+    <div class="container">
+      <div class="flex-horizontal flex-wrap justify-content-center">
+        <!--titolo sezione-->
+        <div class="section-title-center my-5">
+          <span>CHOOSE WHERE YOU'D LIKE TO BEGIN</span>
+          <h2>Latest Featured Courses</h2>
+        </div>
+        <!--cards corsi-->
+        <div class="flex-horizontal flex-wrap">
+          <AppCourses></AppCourses>
+        </div>
+        <div class="w-25 text-center">
+          <button class="my-button">View all courses -></button>
         </div>
       </div>
     </div>
