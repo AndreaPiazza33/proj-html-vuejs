@@ -106,19 +106,19 @@ export default {
     <div class="container">
       <div class="flex-horizontal justify-content-around py-4">
         <div class="flex-vertical text-center">
-          <h4 class="colored-data">1.926</h4>
+          <h4 class="green-data">1.926</h4>
           <span>FINISHED SESSIONS</span>
         </div>
         <div class="flex-vertical text-center">
-          <h4 class="colored-data">3.092+</h4>
+          <h4 class="green-data">3.092+</h4>
           <span>ENROLLED LEARNERS</span>
         </div>
         <div class="flex-vertical text-center">
-          <h4 class="colored-data">200</h4>
+          <h4 class="green-data">200</h4>
           <span>ONLINE INSTRUCTORS</span>
         </div>
         <div class="flex-vertical text-center">
-          <h4 class="colored-data">100%</h4>
+          <h4 class="green-data">100%</h4>
           <span>SATISFACTION RATE</span>
         </div>
       </div>

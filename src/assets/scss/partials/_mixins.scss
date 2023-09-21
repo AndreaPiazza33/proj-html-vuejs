@@ -81,10 +81,22 @@
 }
 
 /*scritte colorate*/
-@mixin my-green-data {
-  color: hsl(170.21deg 68.78% 40.2%);
-  font-weight: bolder;
+@mixin my-colored-data($type) {
+  @if ($type == "green") {
+    color: hsl(170.21deg 68.78% 40.2%);
+    font-weight: bolder;
+  } @else if($type == "gray") {
+    color: hsl(250.59deg 10.43% 68.04%);
+  } @else if($type == "darkGray") {
+    color: hsl(0deg 0% 41.18%);
+  }
 }
-.colored-data {
-  @include my-green-data;
+.green-data {
+  @include my-colored-data("green");
+}
+.gray-data {
+  @include my-colored-data("gray");
+}
+.dark-gray-data {
+  @include my-colored-data("darkGray");
 }

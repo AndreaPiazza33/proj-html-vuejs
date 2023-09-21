@@ -21,7 +21,7 @@ export default {
       <h5>{{ event.title }}</h5>
     </div>
     <div class="flex-vertical align-items-center col-5 my-2">
-      <span class="colored-data">{{ event.day }}</span>
+      <span class="green-data">{{ event.day }}</span>
       <span>{{ event.month }}</span>
       <button class="my-button w-50">Get ticket</button>
     </div>
@@ -32,7 +32,7 @@ export default {
 .cards-event {
   margin: 1rem 1rem;
   width: calc((100% / 2) - 2rem);
-  .colored-data {
+  .green-data {
     font-size: 3.5rem;
   }
 }
