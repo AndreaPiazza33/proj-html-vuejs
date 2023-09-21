@@ -11,10 +11,17 @@ import {
   faCartShopping,
   faAngleDown,
   faMagnifyingGlass,
+  faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 import { faCircleUser } from "@fortawesome/free-regular-svg-icons";
 
-library.add(faCircleUser, faCartShopping, faAngleDown, faMagnifyingGlass);
+library.add(
+  faCircleUser,
+  faCartShopping,
+  faAngleDown,
+  faMagnifyingGlass,
+  faDownload
+);
 
 const app = createApp(App);
 app.component("font-awesome-icon", FontAwesomeIcon);

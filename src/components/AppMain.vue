@@ -35,7 +35,13 @@ export default {
             don't have to struggle alone, you've got our assistance and help.
           </p>
           <!--button verde(ripetuto)-->
-          <button class="my-button w-50">icona+ Download free E-book</button>
+          <button class="my-button w-50">
+            <font-awesome-icon
+              icon="fa-solid fa-download"
+              style="color: #ffffff"
+            />
+            Download free E-book
+          </button>
         </div>
         <!--box immagine-->
         <div>
