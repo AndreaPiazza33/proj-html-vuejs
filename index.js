@@ -137,4 +137,29 @@ export const cards = {
       month: "AUG",
     },
   ],
+
+  /*PROFILE*/
+  cardsProfile: [
+    /*prima card*/
+    {
+      profilePic: "img/seventh-section-avatar-01.jpg",
+      text: "I am free to learn at my own pace, follow my own schedule and choose the subject i like. Great study portal for people like me.",
+      name: "MINA HOLLACE",
+      role: "/ Freelancer",
+    },
+    /*prima card*/
+    {
+      profilePic: "img/seventh-section-avatar-02.jpg",
+      text: "MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+      name: "MADLEY PONDOR",
+      role: "/ IT Specialist",
+    },
+    /*prima card*/
+    {
+      profilePic: "img/seventh-section-avatar-03.jpg",
+      text: "I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.",
+      name: "LUVIC DUBBLE",
+      role: "/ Private Tutor",
+    },
+  ],
 };

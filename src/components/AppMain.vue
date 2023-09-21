@@ -8,13 +8,16 @@ import AppCourses from "./AppCourses.vue";
 /*import events*/
 import AppEvents from "./AppEvents.vue";
 
+/*import profile*/
+import AppProfile from "./AppProfile.vue";
+
 export default {
   data() {
     return {
       title: "",
     };
   },
-  components: { AppOptions, AppCourses, AppEvents },
+  components: { AppOptions, AppCourses, AppEvents, AppProfile },
 };
 </script>
 
@@ -198,6 +201,33 @@ export default {
       </div>
       <div class="my-2">
         <span>Excited about our event?</span><a href="#">View all events -></a>
+      </div>
+    </div>
+  </div>
+
+  <!--SETTIMA SEZIONE-->
+  <div class="bg-vanilla">
+    <div class="container">
+      <div class="flex-vertical align-items-center">
+        <div
+          class="flex-vertical col-5 py-5 align-items-center section-title-center"
+        >
+          <span>PEOPLE ARE PRAISING MAXCOACH</span>
+          <h2>What make they love us?!</h2>
+        </div>
+        <div class="flex-horizontal py-5">
+          <AppProfile></AppProfile>
+        </div>
+        <div class="mb-5">
+          <!--pallini-->
+          <span>....</span>
+        </div>
+        <div class="flex-vertical align-items-center section-title-center">
+          <h5>Start today for getting Online Certification</h5>
+          <h2>You can be your own guiding star with our help!</h2>
+          <!--button verde(ripetuto)-->
+          <button class="my-button w-50">Get started now</button>
+        </div>
       </div>
     </div>
   </div>
