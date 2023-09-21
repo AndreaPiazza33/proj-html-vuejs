@@ -91,4 +91,50 @@ export const cards = {
       label: "$59.00",
     },
   ],
+
+  /*EVENTS*/
+  cardsEvents: [
+    /*prima carta*/
+    {
+      position: "Texas,US",
+      title: "Storytelling Workshop",
+      day: "22",
+      month: "NOV",
+    },
+    /*seconda carta*/
+    {
+      position: "New York,US",
+      title: "Painting Art Contest 2020",
+      day: "10",
+      month: "OCT",
+    },
+    /*terza carta*/
+    {
+      position: "Hamburg,Germany",
+      title: "International Art Fair 2020",
+      day: "23",
+      month: "NOV",
+    },
+    /*quarta carta*/
+    {
+      position: "Illinois,US",
+      title: "Street Performance: Call for Artist",
+      day: "15",
+      month: "DEC",
+    },
+    /*quinta carta*/
+    {
+      position: "Illinois,US",
+      title: "Consumer Food Safety Education Conference",
+      day: "22",
+      month: "JUL",
+    },
+    /*sesta carta*/
+    {
+      position: "Dubai",
+      title: "How meditation improve your mental health",
+      day: "12",
+      month: "AUG",
+    },
+  ],
 };

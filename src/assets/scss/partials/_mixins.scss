@@ -79,3 +79,12 @@
 .section-title-left {
   @include my-section-title("left");
 }
+
+/*scritte colorate*/
+@mixin my-green-data {
+  color: hsl(170.21deg 68.78% 40.2%);
+  font-weight: bolder;
+}
+.colored-data {
+  @include my-green-data;
+}

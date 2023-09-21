@@ -1,9 +1,12 @@
 <script>
-/*import option*/
+/*import options*/
 import AppOptions from "./AppOptions.vue";
 
 /*import courses*/
 import AppCourses from "./AppCourses.vue";
+
+/*import events*/
+import AppEvents from "./AppEvents.vue";
 
 export default {
   data() {
@@ -11,7 +14,7 @@ export default {
       title: "",
     };
   },
-  components: { AppOptions, AppCourses },
+  components: { AppOptions, AppCourses, AppEvents },
 };
 </script>
 
@@ -181,6 +184,23 @@ export default {
       </div>
     </div>
   </div>
+
+  <!--SESTA SEZIONE-->
+  <div class="container">
+    <div class="flex-vertical align-items-center">
+      <div class="section-title-center">
+        <span>GET IN CONTACT NOW</span>
+        <h2>Upcoming Events</h2>
+      </div>
+      <!--cards events-->
+      <div class="flex-horizontal justify-content-center flex-wrap">
+        <AppEvents></AppEvents>
+      </div>
+      <div class="my-2">
+        <span>Excited about our event?</span><a href="#">View all events -></a>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -193,9 +213,5 @@ export default {
     margin: 1rem 0.5rem;
     color: hsl(250.59deg 10.43% 68.04%);
   }
-}
-.colored-data {
-  color: hsl(170.21deg 68.78% 40.2%);
-  font-weight: bolder;
 }
 </style>
