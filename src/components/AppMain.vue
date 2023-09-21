@@ -138,6 +138,49 @@ export default {
       </div>
     </div>
   </div>
+
+  <!--QUINTA SEZIONE-->
+  <div class="container">
+    <div class="flex-horizontal justify-content-between pt-3">
+      <div
+        class="flex-vertical col-5 justify-content-center section-title-left"
+      >
+        <span>WHY HESITATE TO REGISTER?</span>
+        <h2>Learn At Your Own Pace</h2>
+        <ul>
+          <li>Select & customize courses to your preferences</li>
+          <li>Change the tutor and make arrangements</li>
+          <li>Participate in events to join others</li>
+          <li>Get the desired certificate delivered at house</li>
+        </ul>
+        <!--button verde(ripetuto)-->
+        <button class="my-button w-50">Get started for free</button>
+      </div>
+      <!--box immagine-->
+      <div>
+        <img src="img/fifth-section-image-01.png" alt="" />
+      </div>
+    </div>
+    <div class="flex-horizontal justify-content-between pt-3">
+      <!--box immagine-->
+      <div>
+        <img src="img/fifth-section-image-02.png" alt="" />
+      </div>
+      <div
+        class="flex-vertical col-5 justify-content-center section-title-left"
+      >
+        <span>WHAT ARE YOU LOOKING FOR?</span>
+        <h2>Learn on your mobile anytime!</h2>
+        <p>
+          Save lessons for later and revise or write notes at any time and on
+          multipledevices on your way. Never interfere with activities of
+          enjoyment or other precious moments.
+        </p>
+        <!--button verde(ripetuto)-->
+        <button class="my-button w-50">Download our app</button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
