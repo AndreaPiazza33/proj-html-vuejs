@@ -58,7 +58,7 @@ export default {
         <!--titolo sezione-->
         <div class="section-title-center my-5">
           <span>START LEARNING CODING LANGUAGE</span>
-          <h2>Build Your Dream Today</h2>
+          <h2>Build Your Dream <span class="green-data">Today</span></h2>
         </div>
         <!--cards option corsi-->
         <div class="flex-horizontal">
@@ -79,7 +79,11 @@ export default {
             <h2>Construct A Stunning Career Perspective</h2>
             <div class="flex-horizontal justify-content-between label">
               <span>Multiple Platforms Supported for Teaching & Studying</span>
-              <span>-</span>
+              <span
+                ><font-awesome-icon
+                  icon="fa-solid fa-circle-minus"
+                  style="color: #ffffff"
+              /></span>
             </div>
             <div class="white-bg-text">
               <p>
@@ -93,13 +97,21 @@ export default {
               class="flex-horizontal justify-content-between white-bg-text mt-2"
             >
               <span>Multiple Course Participation at the Same Time</span>
-              <span>+</span>
+              <span
+                ><font-awesome-icon
+                  icon="fa-solid fa-circle-plus"
+                  style="color: #8c89a2"
+              /></span>
             </div>
             <div
               class="flex-horizontal justify-content-between white-bg-text mt-2"
             >
               <span>Track Study Progress & Deliver Prompt Feedback</span>
-              <span>+</span>
+              <span
+                ><font-awesome-icon
+                  icon="fa-solid fa-circle-plus"
+                  style="color: #8c89a2"
+              /></span>
             </div>
           </div>
         </div>

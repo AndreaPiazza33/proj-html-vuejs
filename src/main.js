@@ -12,6 +12,9 @@ import {
   faAngleDown,
   faMagnifyingGlass,
   faDownload,
+  faArrowRightLong,
+  faCirclePlus,
+  faCircleMinus,
 } from "@fortawesome/free-solid-svg-icons";
 import { faCircleUser } from "@fortawesome/free-regular-svg-icons";
 
@@ -20,7 +23,10 @@ library.add(
   faCartShopping,
   faAngleDown,
   faMagnifyingGlass,
-  faDownload
+  faDownload,
+  faArrowRightLong,
+  faCirclePlus,
+  faCircleMinus
 );
 
 const app = createApp(App);

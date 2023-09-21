@@ -59,7 +59,7 @@
 @mixin my-section-title($type) {
   > h2 {
     color: hsl(247.14deg 26.58% 30.98%);
-    font-weight: bolder;
+    font-weight: bold;
   }
   > span {
     color: hsl(0deg 0% 41.18%);
