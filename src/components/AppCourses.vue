@@ -20,19 +20,27 @@ export default {
       <span class="label">{{ course.label }}</span>
       <img :src="course.imageUrl" alt="course image" />
     </div>
-    <div class="flex-vertical">
+    <div class="flex-vertical py-5">
       <div class="flex-horizontal">
-        <img :src="course.profilePicUrl" alt="" />
+        <img class="profile-pic" :src="course.profilePicUrl" alt="" />
         <span>{{ course.profileName }}</span>
       </div>
       <h4>{{ course.title }}</h4>
-      <div class="flex-horizontal">
+      <div class="flex-horizontal gray-data">
         <div>
-          <span>icona-</span>
+          <span class="mx-2"
+            ><font-awesome-icon
+              icon="fa-regular fa-file-lines"
+              style="color: #a8a5b6"
+          /></span>
           <span>{{ course.lessons }}</span>
         </div>
         <div>
-          <span>-icona-</span>
+          <span class="mx-2"
+            ><font-awesome-icon
+              icon="fa-regular fa-user"
+              style="color: #a8a5b6"
+          /></span>
           <span>{{ course.students }}</span>
         </div>
       </div>
@@ -45,6 +53,12 @@ export default {
   cursor: pointer;
   margin: 1rem 1rem;
   width: calc((100% / 3) - 2rem);
+  :hover {
+    background-color: white;
+  }
+  .profile-pic {
+    border-radius: 50%;
+  }
   .label-position {
     position: relative;
     .label {

@@ -76,7 +76,10 @@ export default {
             class="flex-vertical col-4 justify-content-center section-title-left"
           >
             <span>DREAM WITH MAXCOACH</span>
-            <h2>Construct A Stunning Career Perspective</h2>
+            <h2>
+              Construct A <span class="green-data">Stunning</span> Career
+              Perspective
+            </h2>
             <div class="flex-horizontal justify-content-between label">
               <span>Multiple Platforms Supported for Teaching & Studying</span>
               <span
@@ -150,7 +153,7 @@ export default {
         <!--titolo sezione-->
         <div class="section-title-center my-5">
           <span>CHOOSE WHERE YOU'D LIKE TO BEGIN</span>
-          <h2>Latest Featured Courses</h2>
+          <h2>Latest Featured <span class="green-data">Courses</span></h2>
         </div>
         <!--cards corsi-->
         <div class="flex-horizontal flex-wrap">
