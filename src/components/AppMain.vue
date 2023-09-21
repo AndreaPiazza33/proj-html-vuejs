@@ -160,7 +160,10 @@ export default {
           <AppCourses></AppCourses>
         </div>
         <div class="w-25 text-center">
-          <button class="my-button">View all courses -></button>
+          <button class="my-button">
+            View all courses
+            <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
+          </button>
         </div>
       </div>
     </div>
@@ -173,12 +176,36 @@ export default {
         class="flex-vertical col-5 justify-content-center section-title-left"
       >
         <span>WHY HESITATE TO REGISTER?</span>
-        <h2>Learn At Your Own Pace</h2>
-        <ul>
-          <li>Select & customize courses to your preferences</li>
-          <li>Change the tutor and make arrangements</li>
-          <li>Participate in events to join others</li>
-          <li>Get the desired certificate delivered at house</li>
+        <h2>Learn At Your Own <span class="green-data">Pace</span></h2>
+        <ul class="gray-data">
+          <li>
+            <font-awesome-icon
+              icon="fa-solid fa-check"
+              style="color: #20ad96"
+            />
+            Select & customize courses to your preferences
+          </li>
+          <li>
+            <font-awesome-icon
+              icon="fa-solid fa-check"
+              style="color: #20ad96"
+            />
+            Change the tutor and make arrangements
+          </li>
+          <li>
+            <font-awesome-icon
+              icon="fa-solid fa-check"
+              style="color: #20ad96"
+            />
+            Participate in events to join others
+          </li>
+          <li>
+            <font-awesome-icon
+              icon="fa-solid fa-check"
+              style="color: #20ad96"
+            />
+            Get the desired certificate delivered at house
+          </li>
         </ul>
         <!--button verde(ripetuto)-->
         <button class="my-button w-50">Get started for free</button>
@@ -197,7 +224,7 @@ export default {
         class="flex-vertical col-5 justify-content-center section-title-left"
       >
         <span>WHAT ARE YOU LOOKING FOR?</span>
-        <h2>Learn on your mobile anytime!</h2>
+        <h2>Learn on your <span class="green-data">mobile</span> anytime!</h2>
         <p>
           Save lessons for later and revise or write notes at any time and on
           multipledevices on your way. Never interfere with activities of

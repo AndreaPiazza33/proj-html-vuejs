@@ -15,6 +15,7 @@ import {
   faArrowRightLong,
   faCirclePlus,
   faCircleMinus,
+  faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faCircleUser,
@@ -32,7 +33,8 @@ library.add(
   faCirclePlus,
   faCircleMinus,
   faFileLines,
-  faUser
+  faUser,
+  faCheck
 );
 
 const app = createApp(App);
