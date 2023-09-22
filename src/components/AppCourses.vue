@@ -53,7 +53,7 @@ export default {
   cursor: pointer;
   margin: 1rem 1rem;
   width: calc((100% / 3) - 2rem);
-  :hover {
+  &:hover {
     background-color: white;
   }
   .profile-pic {

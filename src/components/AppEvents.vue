@@ -39,6 +39,7 @@ export default {
   width: calc((100% / 2) - 2rem);
   &:hover {
     background-color: white;
+    border-left: 5px solid hsl(170.21deg 68.78% 40.2%);
     .my-button {
       background-color: hsl(247.14deg 26.58% 30.98%);
     }
