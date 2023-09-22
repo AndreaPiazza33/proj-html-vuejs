@@ -241,14 +241,18 @@ export default {
     <div class="flex-vertical align-items-center">
       <div class="section-title-center">
         <span>GET IN CONTACT NOW</span>
-        <h2>Upcoming Events</h2>
+        <h2>Upcoming <span class="green-data">Events</span></h2>
       </div>
       <!--cards events-->
       <div class="flex-horizontal justify-content-center flex-wrap">
         <AppEvents></AppEvents>
       </div>
-      <div class="my-2">
-        <span>Excited about our event?</span><a href="#">View all events -></a>
+      <div>
+        <span class="dark-gray-data">Excited about our event?</span
+        ><a class="green-data mx-2" href="#"
+          >View all events
+          <font-awesome-icon icon="fa-solid fa-arrow-right-long"
+        /></a>
       </div>
     </div>
   </div>

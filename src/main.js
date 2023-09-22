@@ -16,6 +16,7 @@ import {
   faCirclePlus,
   faCircleMinus,
   faCheck,
+  faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faCircleUser,
@@ -34,7 +35,8 @@ library.add(
   faCircleMinus,
   faFileLines,
   faUser,
-  faCheck
+  faCheck,
+  faLocationDot
 );
 
 const app = createApp(App);
