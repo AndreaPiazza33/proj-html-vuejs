@@ -265,7 +265,7 @@ export default {
           class="flex-vertical col-5 py-5 align-items-center section-title-center"
         >
           <span>PEOPLE ARE PRAISING MAXCOACH</span>
-          <h2>What make they love us?!</h2>
+          <h2>What make they <span class="green-data">love us?</span></h2>
         </div>
         <div class="flex-horizontal py-5">
           <AppProfile></AppProfile>
@@ -275,7 +275,10 @@ export default {
           <span>....</span>
         </div>
         <div class="flex-vertical align-items-center section-title-center">
-          <h5>Start today for getting Online Certification</h5>
+          <h5>
+            Start today for getting
+            <span class="green-data">Online Certification</span>
+          </h5>
           <h2>You can be your own guiding star with our help!</h2>
           <!--button verde(ripetuto)-->
           <button class="my-button w-50">Get started now</button>

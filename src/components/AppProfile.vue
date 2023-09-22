@@ -19,9 +19,9 @@ export default {
     <img :src="profile.profilePic" alt="" />
 
     <div class="pt-5 mb-3">
-      <p>{{ profile.text }}</p>
+      <p class="blue-data my-2">{{ profile.text }}</p>
       <h5>{{ profile.name }}</h5>
-      <span>{{ profile.role }}</span>
+      <span class="gray-data">{{ profile.role }}</span>
     </div>
   </div>
 </template>
