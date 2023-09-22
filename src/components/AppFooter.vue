@@ -16,7 +16,28 @@ export default {
           <li>+1(305)547-9909(9am-5pm EST, Monday-Friday)</li>
           <li>support@maxcoach.com</li>
         </ul>
-        <span class="gray-data">icone social</span>
+        <div>
+          <font-awesome-icon
+            class="me-3"
+            icon="fa-brands fa-square-facebook"
+            style="color: #a8a5b6"
+          />
+          <font-awesome-icon
+            class="me-3"
+            icon="fa-brands fa-twitter"
+            style="color: #a8a5b6"
+          />
+          <font-awesome-icon
+            class="me-3"
+            icon="fa-brands fa-instagram"
+            style="color: #a8a5b6"
+          />
+          <font-awesome-icon
+            class="me-3"
+            icon="fa-brands fa-linkedin"
+            style="color: #a8a5b6"
+          />
+        </div>
       </div>
 
       <div class="flex-horizontal justify-content-center col-7">
@@ -56,7 +77,7 @@ export default {
 
 <style lang="scss" scoped>
 .list-setting {
-  margin: 1rem 1rem;
+  margin: 4rem 2rem;
   h5 {
     font-weight: bolder;
   }

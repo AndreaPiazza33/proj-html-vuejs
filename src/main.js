@@ -8,6 +8,12 @@ import App from "./App.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
+  faSquareFacebook,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import {
   faCartShopping,
   faAngleDown,
   faMagnifyingGlass,
@@ -36,7 +42,11 @@ library.add(
   faFileLines,
   faUser,
   faCheck,
-  faLocationDot
+  faLocationDot,
+  faSquareFacebook,
+  faTwitter,
+  faInstagram,
+  faLinkedin
 );
 
 const app = createApp(App);
